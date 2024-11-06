@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Mulish", sans-serif;
+}
+
+.homepage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+.homepage-logo a {
+  text-decoration: none;
+  color: #89c5cc;
+  font-size: 2.5rem;
+}
+
+.header-items li {
+  display: inline-block;
+}
+
+.header-items a {
+  text-decoration: none;
+  color: #1f1534;
+  padding: 0.75rem;
+
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.header-items a:hover {
+  color: rgb(80, 79, 79);
+  transition: 0.5s;
+}
+
+.page-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.body-text {
+  width: 36rem;
+}
+
+.paragraph-title h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+
+  color: 000000;
+}
+
+.paragraph-title span {
+  color: #69b99d;
+}
+
+.first-paragraph {
+  margin-top: 1rem;
+}
+
+.first-paragraph p {
+  width: 28rem;
+
+  color: #7d7987;
+}
+
+.startnow-button button {
+  display: flex;
+  margin-top: 1rem;
+  padding: 0.5rem 1.6rem;
+
+  border: none;
+  border-radius: 4px;
+  background-color: #69b99d;
+  cursor: pointer;
+}
+
+.startnow-button img {
+  margin-right: 0.2rem;
+  background-color: #69b99d;
+  width: 1rem;
+}
+
+.startnow-button a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: 300;
+}
+
+.body-banner img {
+  width: 45rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer h4 {
+  color: #7d7987;
+  font-weight: 400;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.footer a:hover {
+  color: rgb(80, 79, 79);
+  transition: 0.5s;
+}
